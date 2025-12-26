@@ -1,3 +1,5 @@
+# This file is covered by the LICENSE file in the root of this project.
+
 import math
 from dataclasses import dataclass
 from typing import Dict, List, Optional
