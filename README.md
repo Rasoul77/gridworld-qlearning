@@ -1,4 +1,5 @@
 # Q-Learning Grid World (Interactive)
+[![Python Version](https://img.shields.io/badge/Python-%E2%89%A53.10-blue.svg)](https://www.python.org/downloads/)
 
 ![Training Demo](media/gridworld.png)
 
