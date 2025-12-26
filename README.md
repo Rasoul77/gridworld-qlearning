@@ -58,18 +58,13 @@ The environment supports deterministic or stochastic transitions via a *slip pro
 ### Agent
 The agent uses standard **Q-learning**:
 
-\[
-Q(s,a) \leftarrow (1 - \alpha)\, Q(s,a)
-+ \alpha \left[
-r + \gamma \max_{a'} Q(s', a')
-\right]
-\]
+**Q(s, a) ← (1 − α) Q(s, a) + α [ r + γ · maxₐ′ Q(s′, a′) ]**
 
 where:
-- \( \alpha \) is the learning rate  
-- \( \gamma \) is the discount factor  
-- \( r \) is the immediate reward  
-- \( s' \) is the next state
+- α is the learning rate  
+- γ is the discount factor  
+- r is the immediate reward
+- s' is the next state
   
 ### Visualization
 Training is animated step-by-step using Matplotlib:
