@@ -1,6 +1,6 @@
 # Q-Learning Grid World (Interactive)
 
-![Training Demo](media/demo.gif)
+![Training Demo](media/gridworld.png)
 
 > *Showing live Q-learning training, greedy policy arrows, and Q-value inspection.*
 
