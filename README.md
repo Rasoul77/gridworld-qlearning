@@ -2,7 +2,7 @@
 
 ![Training Demo](media/demo.gif)
 
-> *Animated GIF showing live Q-learning training, greedy policy arrows, and Q-value inspection.*
+> *Showing live Q-learning training, greedy policy arrows, and Q-value inspection.*
 
 An educational implementation of **tabular Q-learning** that trains an agent *live* in a 2D GridWorld, with an interactive Matplotlib visualization for inspecting policies and Q-values as learning progresses.
 
@@ -106,9 +106,3 @@ This repository aims to:
 - provide an intuitive understanding of exploration vs exploitation
 
 The code intentionally avoids external RL frameworks to keep the core ideas transparent.
-
----
-
-## License
-
-MIT — free to use, modify, and extend for learning or teaching purposes.
