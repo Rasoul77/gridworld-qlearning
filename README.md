@@ -56,12 +56,21 @@ The GridWorld is defined using an ASCII map:
 The environment supports deterministic or stochastic transitions via a *slip probability*.
 
 ### Agent
-The agent uses standard **Q-learning** with:
-- learning rate `α`
-- discount factor `γ`
-- epsilon-greedy exploration
-- per-step epsilon decay
+The agent uses standard **Q-learning**:
 
+\[
+Q(s,a) \leftarrow (1 - \alpha)\, Q(s,a)
++ \alpha \left[
+r + \gamma \max_{a'} Q(s', a')
+\right]
+\]
+
+where:
+- \( \alpha \) is the learning rate  
+- \( \gamma \) is the discount factor  
+- \( r \) is the immediate reward  
+- \( s' \) is the next state
+  
 ### Visualization
 Training is animated step-by-step using Matplotlib:
 - the agent moves in real time
